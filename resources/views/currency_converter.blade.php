@@ -59,9 +59,11 @@
                 data: formData,
                 success: function(response) {
                     if (response.success) {
+                        $('.success_result').empty();
                         $('.success_result').addClass('alert-success');
                         $('.success_result').append(response.amount + ' ' + response.currency_from + ' = ' + response.converted_amount + ' ' + response.currency_to);
                     } else {
+                        $('.success_result').empty();
                         $('.success_result').addClass('alert-danger');
                         $('.success_result').append('Conversion failed: ' + response.message);
                     }

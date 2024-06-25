@@ -32,6 +32,10 @@ I used the Laravel framework to complete this task, utilizing the Fixer.io excha
     <!-- command -->
     cp .env.example .env
 
+    after creating the env file add API key to .env:
+
+    FIXER_API_KEY=b9c901d29895aa8853d57a2159246238
+
 4.	Generate Application Key
 
     php artisan key:generate

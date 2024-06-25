@@ -16,5 +16,6 @@ I used the Laravel framework to complete this task, utilizing the Fixer.io excha
 - CurrencyController app/Http/Controller/CurrencyController is used to call the APi and conversions main code controller.
 - web.php is router file routes/web.ph
 - I used an AJAX call with JavaScript, and the code is inside the currency_controller.php file. I did not use a separate file for JavaScript because it's a single-page application, so I defined the JavaScript at the bottom of the file. 
+- .env file is used to define FIXER_API_KEY
 - jquery 3.6.0
 - bootstrap 4.5.2 with CDN link

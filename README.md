@@ -19,3 +19,24 @@ I used the Laravel framework to complete this task, utilizing the Fixer.io excha
 - .env file is used to define FIXER_API_KEY
 - jquery 3.6.0
 - bootstrap 4.5.2 with CDN link
+
+## Installation
+1.	Clone the Repository
+2.	Install Dependencies
+    Ensure you have Composer installed on your machine. Then run:
+    <!-- command -->
+    composer install
+
+3.	Environment Setup
+    Copy the .env.example file to create a new .env file:
+    <!-- command -->
+    cp .env.example .env
+
+4.	Generate Application Key
+
+    php artisan key:generate
+
+5.	Start the Development Server
+    Start the Laravel development server:
+    <!-- command -->
+    php artisan serve
